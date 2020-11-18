@@ -61,4 +61,4 @@ def get_ppm():
 
 text = ("[***WARNING***]\n质量轴偏移过大，需要校正\nppm=%f"%get_ppm())
 if abs(get_ppm()) >= 4.5:
-    send_msg(text, shj)
+    send_msg(text, abc)
