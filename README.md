@@ -5,8 +5,8 @@ use python to scan .raw File "LockMass m/z-Correction" from Thermo mass spectrum
 # Set Lock Mass Method
 Need to set the Lock Mass List in the mass acquisition method, usually in the wash between samples.  
 需要在质谱采集方法中设置Lock Mass List，通常在样品之间的wash方法里  
-Polydimethylcyclosiloxanes are ubiquitously present in ambient air. \(Mass difference 74.018793\)
-聚二甲基环硅氧烷普遍存在于环境空气中。（其质量差异74.018793）在蛋白质谱分析模式中以m/z=445.12003丰度最高
+Polydimethylcyclosiloxanes are ubiquitously present in ambient air. \(Mass difference 74.018793\)  
+聚二甲基环硅氧烷普遍存在于环境空气中。（其质量差异74.018793）在蛋白质谱分析模式中以m/z=445.12003丰度最高  
 ![Polydimethylcyclosiloxanes](http://www.proteomicsresource.washington.edu/images/esi_background_02.png)
 |Polysiloxanes Mono mass \[M+H\]<sup>+</sup>|Formula|
 |:-:|:-:|
