@@ -8,12 +8,12 @@ Need to set the Lock Mass List in the mass acquisition method, usually in the wa
 Polydimethylcyclosiloxanes are ubiquitously present in ambient air. \(Mass difference 74.018793\)  
 聚二甲基环硅氧烷普遍存在于环境空气中。（其质量差异74.018793）在蛋白质谱分析模式中以m/z=445.12003丰度最高  
 ![Polydimethylcyclosiloxanes](http://www.proteomicsresource.washington.edu/images/esi_background_02.png)
-|Polysiloxanes Mono mass \[M+H\]<sup>+</sup>|Formula|
-|:-:|:-:|
-|445.12003|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>6</sub><sup>+</sup>H\]<sup>+</sup>|
-|371.10124|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>5</sub><sup>+</sup>H\]<sup>+</sup>|
-|519.13883|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>7</sub><sup>+</sup>H\]<sup>+</sup>|
-|593.15762|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>8</sub><sup>+</sup>H\]<sup>+</sup>|
-|667.17641|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>9</sub><sup>+</sup>H\]<sup>+</sup>|
+|Polysiloxanes Mono mass \[M+H\]<sup>+</sup>|Polarity|Formula|
+|:-:|:-:|:-:|
+|445.12003|Positive|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>6</sub><sup>+</sup>H\]<sup>+</sup>|
+|371.10124|Positive|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>5</sub><sup>+</sup>H\]<sup>+</sup>|
+|519.13883|Positive|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>7</sub><sup>+</sup>H\]<sup>+</sup>|
+|593.15762|Positive|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>8</sub><sup>+</sup>H\]<sup>+</sup>|
+|667.17641|Positive|\[\(Si\[CH<sub>3</sub>\]<sub>2</sub>O\)<sub>9</sub><sup>+</sup>H\]<sup>+</sup>|
 # Notice
 I AM A NEWBEE
