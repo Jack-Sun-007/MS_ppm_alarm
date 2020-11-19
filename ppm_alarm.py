@@ -58,7 +58,7 @@ def get_ppm():
     ppm = mean(ppmlist)
     print(ppm)
     return(ppm)
-
-text = ("[***WARNING***]\n质量轴偏移过大，需要校正\nppm=%f"%get_ppm())
-if abs(get_ppm()) >= 4.5:
+P = get_ppm()
+text = ("[***WARNING***]\n质量轴偏移过大，需要校正\nppm=%f"%P)
+if abs(P) >= 4.5:
     send_msg(text, abc)
