@@ -54,7 +54,8 @@ def get_ppm():
     ppmlist = []
     for scan_number in range(rawfile.FirstSpectrumNumber, rawfile.LastSpectrumNumber + 1):
         t = rawfile.GetTrailerExtraForScanNum(scan_number)
-        ppmlist.append(float(t['LM m/z-Correction (ppm)']))
+        if 0.0 != float(t['Number of LM Found']):
+            ppmlist.append(float(t['LM m/z-Correction (ppm)']))
     ppm = mean(ppmlist)
     print(ppm)
     return(ppm)
