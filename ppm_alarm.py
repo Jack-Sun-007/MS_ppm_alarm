@@ -46,7 +46,7 @@ def get_wash_path():
     wash = get_wash_list("D:\\raw data")
     washfile = ("D:\\raw data\\" + wash[1])
     print(washfile)
-    return(washfile)
+    return washfile
 
 #读取质量轴偏离程度ppm，需要设置LockMass=445.12003
 def get_ppm():
@@ -58,9 +58,11 @@ def get_ppm():
             ppmlist.append(float(t['LM m/z-Correction (ppm)']))
     ppm = mean(ppmlist)
     print(ppm)
-    return(ppm)
+    return ppm
 
-P = get_ppm()
-text = ("[***WARNING***]\n质量轴偏移过大，需要校正\nppm=%f"%P)
-if abs(P) >= 4.5:
-    send_msg(text, abc)
+if __name__ == '__main__':
+    P = get_ppm()
+    text = ("[***WARNING***]\n质量轴偏移过大，需要校正\nppm=%f"%P)
+    if abs(P) >= 4.5:
+        send_msg(text, abc)
+
